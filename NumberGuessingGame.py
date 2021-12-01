@@ -37,6 +37,6 @@ while count < math.log(upper - lower + 1, 2):
  
 # If Guessing is more than required guesses,
 # shows this output.
-if count >= math.log(upper - lower + 1, 2):
+if count > math.log(upper - lower + 1, 2):
     print("\nThe number is %d" % x)
     print("\tBetter Luck Next time!")
